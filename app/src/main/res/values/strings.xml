@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WallpaperPicker</string>
+    <string name="download">download</string>
+    <string name="makewallpaper">makeWallpaper</string>
+    <string name="previous">previous</string>
+    <string name="next">next</string>
+</resources>

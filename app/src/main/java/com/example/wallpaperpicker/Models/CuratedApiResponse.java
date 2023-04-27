@@ -1,0 +1,29 @@
+package com.example.wallpaperpicker.Models;
+
+import java.util.ArrayList;
+
+public class CuratedApiResponse {
+
+
+    public int page;
+    public int per_page;
+    public ArrayList<Photo> photos;
+    //        mozda treba List
+    public String next_page;
+
+    public int getPage() {
+        return page;
+    }
+
+    public int getPer_page() {
+        return per_page;
+    }
+
+    public ArrayList<Photo> getPhotos() {
+        return photos;
+    }
+
+    public String getNext_page() {
+        return next_page;
+    }
+}
